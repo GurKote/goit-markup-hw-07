@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+
+  .customers-list-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+}

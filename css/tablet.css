@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 582px;
+  }
+
+  .team-section {
+    padding-top: 96px;
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .customers-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customers-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+}
