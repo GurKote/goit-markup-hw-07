@@ -65,8 +65,8 @@ button {
   /* width: 100%; */
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* ========== Body ========== */
@@ -271,16 +271,19 @@ body {
 
 /* ========= section 2 - features ======== */
 .features-section {
-  padding-bottom: 0px;
+  padding-top: 96px;
+  padding-bottom: 139px;
 }
 
 .features-list {
   display: flex;
-  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 .features-item {
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .features-icon-wrap {
@@ -297,16 +300,23 @@ body {
   width: 64px;
   height: 64px;
 }
+
+.features-suptitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.features-description {
+  font-weight: 500;
+}
+
 /* ========= /section 2 - features ======== */
 
 /* ========= section 3 - projects ======== */
-@media screen and (max-width: 1199px) {
-  .projects-section {
-    display: none;
-  }
-}
-.projects-section {
-}
 
 .projects-list {
   display: flex;

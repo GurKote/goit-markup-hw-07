@@ -3,14 +3,34 @@
     max-width: 582px;
   }
 
+  .features-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .features-section .container {
+    min-width: 768px;
+  }
+
+  .features-list {
+    justify-content: center;
+    gap: 72px 24px;
+  }
+
+  .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .features-suptitle {
+    text-align: left;
+  }
+
   .team-section {
     padding-top: 96px;
     padding-bottom: 104px;
   }
 
   .team-list {
-    display: flex;
-    flex-wrap: wrap;
     gap: 64px 24px;
   }
 

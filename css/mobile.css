@@ -3,3 +3,13 @@
     max-width: 428px;
   }
 }
+
+@media screen and (max-width: 1199px) {
+  .features-icon-wrap {
+    display: none;
+  }
+
+  .projects-section {
+    display: none;
+  }
+}

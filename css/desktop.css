@@ -5,6 +5,32 @@
     padding-right: 15px;
   }
 
+  .features-section {
+    padding-top: 120px;
+    padding-bottom: 0px;
+  }
+
+  .features-list {
+    gap: 24px;
+  }
+
+  .section-suptitle {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+  }
+
+  .section-description {
+    font-weight: 400;
+  }
+
+  .features-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
   .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
