@@ -3,6 +3,16 @@
     max-width: 582px;
   }
 
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
   .features-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -13,7 +23,6 @@
   }
 
   .features-list {
-    justify-content: center;
     gap: 72px 24px;
   }
 
@@ -30,12 +39,18 @@
     padding-bottom: 104px;
   }
 
+  /* .team-list {
+    gap: 64px 24px;
+  } */
   .team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 64px 24px;
   }
 
   .team-list-item {
-    flex-basis: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .customers-section {

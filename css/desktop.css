@@ -5,6 +5,10 @@
     padding-right: 15px;
   }
 
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
   .features-section {
     padding-top: 120px;
     padding-bottom: 0px;
