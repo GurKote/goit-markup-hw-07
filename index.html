@@ -76,7 +76,7 @@
       </section>
 
       <!-- section 2 Features -->
-      <section class="features-section section">
+      <!-- <section class="features-section section">
         <div class="container">
           <h2 class="section-title visually-hidden">Our Features</h2>
 
@@ -134,17 +134,21 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- section 3 - work examples -->
-      <section class="projects-section section">
+      <!-- <section class="projects-section section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="projects-list list">
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/photo_1.jpg"
+                srcset="
+                  ./images/products/desktop-apps.jpg    1x,
+                  ./images/products/desktop-apps@2x.jpg 2x
+                "
+                src="./images/products/desktop-apps.jpg"
                 alt="pc project"
                 width="360"
                 height="300"
@@ -153,7 +157,11 @@
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/photo_2.jpg"
+                srcset="
+                  ./images/products/mobile-apps.jpg    1x,
+                  ./images/products/mobile-apps@2x.jpg 2x
+                "
+                src="./images/products/mobile-apps.jpg"
                 alt="smartphone app"
                 width="360"
                 height="300"
@@ -162,7 +170,11 @@
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/photo_3.jpg"
+                srcset="
+                  ./images/products/apps-design.jpg    1x,
+                  ./images/products/apps-design@2x.jpg 2x
+                "
+                src="./images/products/apps-design.jpg"
                 alt="smartphone app 2"
                 width="360"
                 height="300"
@@ -170,10 +182,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- section 4 - team -->
-      <section class="team-section section">
+      <!-- <section class="team-section section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list list">
@@ -350,10 +362,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- section 5 - Customers -->
-      <section class="customers-section section">
+      <!-- <section class="customers-section section">
         <div class="customers-container container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list list">
@@ -401,10 +413,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- footer_content -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="footer-container container">
         <div class="footer-info">
           <a class="footer-logo link" href="./index.html"
@@ -453,7 +465,7 @@
         <div class="footer-subscribe">
           <h2 class="subscribe-title section-suptitle">Subscribe</h2>
           <form action="#" class="subscribe-form">
-            <lable for: class="subscribe-filed">
+            <label for: class="subscribe-filed">
               <input
                 type="email"
                 name="user_email"
@@ -461,16 +473,16 @@
                 required
                 placeholder="E-mail"
               />
-            </lable>
-            <button type="submit" class="subscribe-form-submit">Subscribe
+              <button type="submit" class="subscribe-form-submit">Subscribe
               <svg class="subscribe-icon">
                   <use href="./images/icons/sprite.svg#subscribe"></use>
                 </svg>
             </button>
+            </label>
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- Modal window -->
     <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
