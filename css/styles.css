@@ -129,7 +129,35 @@ body {
 }
 
 .mobile-menu-open-btn {
-  margin-left: auto;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+
+  transition: border-color var(--transition-timing-func),
+    background-color var(--transition-timing-func);
+}
+
+.mobile-menu-open-btn:is(:hover, :focus) {
+  background-color: var(--hover-focus-color);
+}
+
+.mobile-menu-open-icon {
+  fill: var(--dark-color);
+  transition: fill var(--transition-timing-func);
+}
+
+.mobile-menu-open-btn:is(:hover, :focus),
+.mobile-menu-open-icon {
+  fill: var(--white-color);
 }
 
 /* ========== /Header ========== */
