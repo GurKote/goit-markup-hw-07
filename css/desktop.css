@@ -5,6 +5,14 @@
     padding-right: 15px;
   }
 
+  .address-item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .address-list {
+    display: flex;
+  }
+
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;

@@ -1,15 +1,22 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 582px;
+    max-width: 768px;
+  }
+
+  .features-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .menu {
     display: flex;
+    gap: 40px;
   }
 
-  .menu-item:not(:last-child) {
+  /* .menu-item:not(:last-child) {
     margin-right: 40px;
-  }
+  } */
 
   .menu-item {
     position: relative;
@@ -40,16 +47,8 @@
     color: var(--hover-focus-color);
   }
 
-  .address {
-    margin-left: auto;
-  }
-
-  .address-list {
-    display: flex;
-  }
-
   .address-item:not(:last-child) {
-    margin-right: 40px;
+    margin-bottom: 4px;
   }
 
   .address-link {
@@ -63,6 +62,10 @@
   .address-link:hover,
   .address-link:focus {
     color: var(--hover-focus-color);
+  }
+
+  .mobile-menu-open-btn {
+    display: none;
   }
 
   .hero {
