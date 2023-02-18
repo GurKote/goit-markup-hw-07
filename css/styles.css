@@ -151,15 +151,68 @@ body {
 }
 
 .mobile-menu-open-icon {
-  fill: var(--dark-color);
-  transition: fill var(--transition-timing-func);
+  stroke: var(--dark-color);
+  transition: stroke var(--transition-timing-func);
 }
 
-.mobile-menu-open-btn:is(:hover, :focus),
-.mobile-menu-open-icon {
+.mobile-menu-open-btn:is(:hover, :focus) .mobile-menu-open-icon {
+  stroke: var(--white-color);
+}
+
+/* .mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  background-color: var(--white-color);
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.mobile-menu-nav {
+}
+.modal-close-btn {
+}
+.modal-close-btn-icon {
+}
+
+.modal-close-btn {
+}
+
+.modal-close-btn:is(:hover, :focus) {
+  background-color: var(--hover-focus-color);
+}
+
+.modal-close-btn-icon {
+  transition: fill var(--transition-timing-func);
+  width: 8px;
+  height: 8px;
+}
+
+.modal-close-btn:is(:hover, :focus) .modal-close-btn-icon {
   fill: var(--white-color);
 }
 
+.mobile-menu-item {
+}
+.mobile-menu-link {
+}
+
+.mobile-menu-address {
+}
+.mobile-menu-address-list {
+}
+.mobile-menu-address-item {
+}
+.mobile-menu-address-link {
+}
+.social-list {
+}
+.social-list-item {
+}
+.social-list-link {
+}
+.social-list-icon {
+} */
 /* ========== /Header ========== */
 
 /* ================ hero ================== */
