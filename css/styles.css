@@ -78,6 +78,39 @@ body {
 }
 /* ========== Body ========== */
 
+/* =========== Styles for sections ========= */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.section-suptitle {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.section-description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* =========== Styles for sections ========= */
+
 /* ========== Header ========== */
 
 .page-header {
@@ -94,8 +127,7 @@ body {
 }
 
 .page-logo,
-.menu-link,
-.address-link {
+.menu-link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -288,39 +320,6 @@ body {
 }
 
 /* ================ /hero ================== */
-
-/* =========== Styles for sections ========= */
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.section-title {
-  margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark-color);
-}
-
-.section-suptitle {
-  margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--dark-color);
-}
-
-.section-description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
-/* =========== Styles for sections ========= */
 
 /* ========= section 2 - features ======== */
 .features-section {
